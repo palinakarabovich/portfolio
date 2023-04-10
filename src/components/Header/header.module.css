@@ -1,0 +1,35 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.node {
+  padding-left: 40px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.link {
+  color: #211B1B;
+  text-decoration: none;
+  padding-bottom: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.linkActive{
+  border-radius: 5px;
+  border: rgba(172, 119, 161, .8) 1px solid;
+}

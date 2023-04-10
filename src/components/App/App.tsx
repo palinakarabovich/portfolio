@@ -1,10 +1,23 @@
 import React from 'react';
-import styles from '/App.module.css'
+import Contact from '../Contact/Contact';
+import Education from '../Education/Education';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import Portfolio from '../Portfolio/Portfolio';
+import Promo from '../Promo/Promo';
+import Tech from '../Tech/Tech';
+import styles from './app.module.css'
 
-function App() {
+const App = () =>  {
   return (
-    <div >
-      Hello
+    <div className={styles.app}>
+      <Header />
+      <Promo />
+      <Tech />
+      <Education />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }
