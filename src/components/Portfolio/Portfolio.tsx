@@ -2,7 +2,7 @@ import styles from './portfolio.module.css'
 
 const Portfolio = () => {
   return (
-    <section className={styles.portfolio}>
+    <section className={styles.portfolio} id ={'portfolio'}>
       <h2 className={styles.title}>
         Portfolio
       </h2>
@@ -12,58 +12,63 @@ const Portfolio = () => {
             React burger
           </h3>
           <div className={styles.container}>
-            <a href='#' className={styles.link}>github</a>
-            <a href='#' className={styles.link}>website</a>
+            <a href='https://github.com/palinakarabovich/react-burger' className={styles.link} target={'_blank'}>github</a>
+            <a href='https://palinakarabovich.github.io/react-burger/' className={styles.link} target={'_blank'}>website</a>
           </div>
           <p className={styles.text}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, doloribus tempora recusandae voluptatibus ex sed corrupti ea ullam iste laudantium aut vero, sint totam optio cupiditate accusantium possimus ipsam. Ut?
+          This is a burger ordering application that allows you to build your own burgers using the presented ingredients and place order only after authorization. If you forgot your password, you can reset it with the verefication code which will be send to your email. The app also has real-time tracking of all orders that are preparing now. Your orders are saved to personal order history in your profile, where you can also change your email, name and passwords. You can place the ingredients to the burger-constructor using Drag and Drop. The app was designed partially using external ux library.
           </p>
           <ul className={styles.tags}>
-            <li className={styles.tag}>JS</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
+            <li className={styles.tag}>TypeScript</li>
+            <li className={styles.tag}>React</li>
+            <li className={styles.tag}>Redux Tool Kit</li>
+            <li className={styles.tag}>React d-n-d</li>
+            <li className={styles.tag}>Websockets</li>
+            <li className={styles.tag}>Jest</li>
+            <li className={styles.tag}>Cypress</li>
           </ul>
         </li>
         <li className={styles.node}>
           <h3 className={styles.project}>
-            React burger
+            Movies Explorer
           </h3>
           <div className={styles.container}>
-            <a href='#' className={styles.link}>github</a>
-            <a href='#' className={styles.link}>website</a>
+            <a href='https://github.com/palinakarabovich/movies-explorer-frontend' className={styles.link} target={'_blank'}>github</a>
+            <a href='https://palinakarabovich.github.io/movies-explorer-frontend/' className={styles.link} target={'_blank'}>website</a>
           </div>
           <p className={styles.text}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, doloribus tempora recusandae voluptatibus ex sed corrupti ea ullam iste laudantium aut vero, sint totam optio cupiditate accusantium possimus ipsam. Ut?
+          This app allows you to search along  a bit weird  but interested movies made by young directors. To use the server you need to be authorised. You can also save movies and remove them from your favourites later. 
           </p>
           <ul className={styles.tags}>
             <li className={styles.tag}>JS</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
+            <li className={styles.tag}>React</li>
+            <li className={styles.tag}>Express.js</li>
+            <li className={styles.tag}>MongoDB</li>
           </ul>
         </li>
         <li className={styles.node}>
           <h3 className={styles.project}>
-            React burger
+            Mesto - photo service
           </h3>
           <div className={styles.container}>
-            <a href='#' className={styles.link}>github</a>
-            <a href='#' className={styles.link}>website</a>
+            <a href='https://github.com/palinakarabovich/react-mesto-api-full' className={styles.link} target={'_blank'}>github</a>
+            <a href='https://palinakarabovich.github.io/react-mesto-api-full/sign-in' className={styles.link} target={'_blank'}>website</a>
           </div>
           <p className={styles.text}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, doloribus tempora recusandae voluptatibus ex sed corrupti ea ullam iste laudantium aut vero, sint totam optio cupiditate accusantium possimus ipsam. Ut?
+            This app allows you to add your photos to the shared feed with other users. To add photo you have to be authorized. You can put likes on your photos and photos of others. You see the amount of likes and can dislike the photo any time. You can delete your own photos. Also you have ability to change the avatar, name and profile description.
           </p>
           <ul className={styles.tags}>
             <li className={styles.tag}>JS</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
-            <li className={styles.tag}>react</li>
+            <li className={styles.tag}>React</li>
+            <li className={styles.tag}>Express.js</li>
+            <li className={styles.tag}>MongoDB</li>
           </ul>
         </li>
+        <li className={styles.node}>
+          <p className={styles.project}>
+            Find out more my educational projects on <a  href='https://github.com/palinakarabovich' target='_blank' className={styles.tagLink}>github</a>
+          </p>
+          </li>
       </ul>
     </section>
   )

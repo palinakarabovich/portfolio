@@ -6,7 +6,7 @@ const Header = () => {
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li className={styles.node}>
-            <a href='#about' className={`${styles.link} ${styles.linkActive}`}>About me</a>
+            <a href='#about' className={styles.link}>About me</a>
           </li>
           <li className={styles.node}>
             <a href='#education' className={styles.link}>Education and work</a>

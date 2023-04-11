@@ -33,3 +33,7 @@
   border-radius: 5px;
   border: rgba(172, 119, 161, .8) 1px solid;
 }
+
+.link:hover{
+  color: rgba(172, 119, 161, .8);
+}

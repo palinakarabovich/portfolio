@@ -77,3 +77,21 @@
   left: -13.5%;
   z-index: -1;
 }
+
+.diplom{
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  max-width: 90px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover{
+  color: rgba(196, 140, 181);
+}
