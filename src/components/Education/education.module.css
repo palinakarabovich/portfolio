@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-right: 2px solid rgba(196, 140, 181);
+  border-right: 2px solid #FFBC67;
   box-sizing: border-box;
   flex-direction: column;
   padding-bottom: 40px;
@@ -38,22 +38,40 @@
 }
 
 .year {
-  margin-right: 30px;
+  margin: 25px 20px;
   box-sizing: border-box;
   padding: 2px;
 }
 
 .text {
-  background-color: rgba(196, 140, 181);
-  padding: 30px 10px;
+  background-color: #FFBC67;
   position: relative;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   z-index: 2;
+  line-height: 1;
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.textTitle{
+  font-size: 20px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.textDescription{
+  margin: 0 0 20px 0;
 }
 
 .text:after {
-  background: linear-gradient(45deg, transparent 16px, rgba(196, 140, 181) 0), linear-gradient(-45deg, transparent 16px, rgba(196, 140, 181) 0);
+  background: linear-gradient(45deg, transparent 16px, #FFBC67 0), linear-gradient(-45deg, transparent 16px, #FFBC67 0);
   background-repeat: repeat-x;
   background-position: left bottom;
   background-size: 22px;
@@ -68,7 +86,7 @@
 
 .text::before {
   content: "";
-  background-color: rgba(196, 140, 181);
+  background-color: #FFBC67;
   height: 2px;
   width: 118%;
   position: relative;
@@ -78,20 +96,26 @@
   z-index: -1;
 }
 
-.diplom{
+.link{
+  text-decoration: none;
+  color: black;
   background-color: white;
   padding: 5px 10px;
   border-radius: 15px;
   text-transform: uppercase;
-  margin-top: 15px;
-  max-width: 90px;
-}
-
-.link{
-  text-decoration: none;
-  color: black;
+  
 }
 
 .link:hover{
-  color: rgba(196, 140, 181);
+  color: #685C79;
+}
+
+@media screen and (max-width: 800px){
+  .list{
+    padding: 0;
+  }
+
+  .textTitle{
+    font-size: 18px;
+  }
 }

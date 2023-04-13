@@ -52,7 +52,7 @@ const Portfolio = () => {
           </h3>
           <div className={styles.container}>
             <a href='https://github.com/palinakarabovich/react-mesto-api-full' className={styles.link} target={'_blank'}>github</a>
-            <a href='https://palinakarabovich.github.io/react-mesto-api-full/sign-in' className={styles.link} target={'_blank'}>website</a>
+            <a href='https://palinakarabovich.github.io/react-mesto-api-full' className={styles.link} target={'_blank'}>website</a>
           </div>
           <p className={styles.text}>
             This app allows you to add your photos to the shared feed with other users. To add photo you have to be authorized. You can put likes on your photos and photos of others. You see the amount of likes and can dislike the photo any time. You can delete your own photos. Also you have ability to change the avatar, name and profile description.
@@ -64,7 +64,7 @@ const Portfolio = () => {
             <li className={styles.tag}>MongoDB</li>
           </ul>
         </li>
-        <li className={styles.node}>
+        <li className={`${styles.node} ${styles.nodeLink}`}>
           <p className={styles.project}>
             Find out more my educational projects on <a  href='https://github.com/palinakarabovich' target='_blank' className={styles.tagLink}>github</a>
           </p>

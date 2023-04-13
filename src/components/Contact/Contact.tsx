@@ -9,33 +9,27 @@ const Contact = () => {
       <ul className={styles.list}>
       <li className={styles.node}>
         <p className={styles.text}>
-          Instargam
+          Email
         </p>
-        <a className={styles.link} href='#'>instagram.com</a>
+        <a className={styles.link} href='mailto:polina.mestovskaya@gmail.com' target={'_blank'}>polina.mestovskaya@gmail.com</a>
+      </li>
+      <li className={styles.node}>
+        <p className={styles.text}>
+          Telephone / WhatsApp
+        </p>
+        <a className={styles.link} href='tel:+31627962585' target={'_blank'}>+31 6 27962585</a>
+      </li>
+      <li className={styles.node}>
+        <p className={styles.text}>
+        Linkedin
+        </p>
+        <a className={styles.link} href='https://www.linkedin.com/in/palina-karabovich-04a801201/' target={'_blank'}>Palina Karabovich</a>
       </li>
       <li className={styles.node}>
         <p className={styles.text}>
           Instargam
         </p>
-        <a className={styles.link} href='#'>instagram.com</a>
-      </li>
-      <li className={styles.node}>
-        <p className={styles.text}>
-          Instargam
-        </p>
-        <a className={styles.link} href='#'>instagram.com</a>
-      </li>
-      <li className={styles.node}>
-        <p className={styles.text}>
-          Instargam
-        </p>
-        <a className={styles.link} href='#'>instagram.com</a>
-      </li>
-      <li className={styles.node}>
-        <p className={styles.text}>
-          Instargam
-        </p>
-        <a className={styles.link} href='#'>instagram.com</a>
+        <a className={styles.link} href='https://www.instagram.com/palina.karabovich/' target={'_blank'}>@palinakarabovich</a>
       </li>
       </ul>
     </section>

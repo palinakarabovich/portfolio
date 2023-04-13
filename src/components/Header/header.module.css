@@ -37,3 +37,20 @@
 .link:hover{
   color: rgba(172, 119, 161, .8);
 }
+
+@media screen and (max-width: 800px){
+  .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .link{
+    font-size: 12px;
+  }
+
+  .node{
+    padding-left: 0;
+  }
+}
