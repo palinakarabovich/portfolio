@@ -39,7 +39,7 @@ const Education = () => {
             <p className={styles.textDescription}>
               My education  has been a 1 year journey, beginning with the basics of HTML, CSS, and JavaScript and culminating in the ability to build full-stack applications using React for the frontend and Node.js with MongoDB for the backend. Through this training, I have developed a strong foundation in frontend development and gained basic knowledge of Node.js.
             </p>
-            <a href='https://drive.google.com/file/d/1kGNjmVKbBnvrX2M5fJ6X5Kt1oudZ2C9S/view?usp=sharing' target={'_blank'} className={styles.link}>Certificate</a>
+            <a href='https://drive.google.com/file/d/1-HyvZ32_4uM2BOhoF3ZvQ1xIZxHut1OY/view?usp=sharing' target={'_blank'} className={styles.link}>Certificate</a>
           </div>
         </li>
         <li className={styles.node}>
@@ -51,7 +51,7 @@ const Education = () => {
             <p className={styles.textDescription}>
               This course has significantly improved my knowledge and skills in React. Throughout the course, I have gained familiarity with Typescript, React-Redux, Redux Tool Kit and Websockets, which will allow me to build more projects and grow professionally as a Frontend Developer.
             </p>
-            <a href='https://drive.google.com/file/d/1-HyvZ32_4uM2BOhoF3ZvQ1xIZxHut1OY/view?usp=sharing' target={'_blank'} className={styles.link}>Certificate</a>
+            <a href='https://drive.google.com/file/d/1kGNjmVKbBnvrX2M5fJ6X5Kt1oudZ2C9S/view?usp=sharing' target={'_blank'} className={styles.link}>Certificate</a>
           </div>
         </li>
       </ul>
