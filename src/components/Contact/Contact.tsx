@@ -23,7 +23,7 @@ const Contact = () => {
         <p className={styles.text}>
         Linkedin
         </p>
-        <a className={styles.link} href='https://www.linkedin.com/in/palina-karabovich-04a801201/' target={'_blank'}>Palina Karabovich</a>
+        <a className={styles.link} href='https://www.linkedin.com/in/palina-karabovich/' target={'_blank'}>Palina Karabovich</a>
       </li>
       <li className={styles.node}>
         <p className={styles.text}>
