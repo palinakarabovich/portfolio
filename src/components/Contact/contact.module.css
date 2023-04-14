@@ -1,0 +1,91 @@
+.contact{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.title {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.list::after{
+  display: block;
+  content: "";
+  height: 2px;
+  background-color: #FFBC67;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+}
+
+.node{
+  border: 2px solid #FFBC67;
+  margin-right: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  width: 240px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.node:last-child{
+  margin-right: 0;
+}
+
+.text{
+  margin: 0;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  background-color: #FFBC67;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.link:hover{
+  color: #685C79;
+}
+
+@media screen and (max-width: 600px) {
+  .list::after{
+    display: none;
+  }
+
+  .contact{
+    padding-bottom: 50px;
+  }
+}

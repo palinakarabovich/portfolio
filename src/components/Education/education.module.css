@@ -1,0 +1,121 @@
+.education {
+  max-width: calc(1200px/100 * 70);
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #FFBC67;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.title {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+
+.node {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.year {
+  margin: 25px 20px;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.text {
+  background-color: #FFBC67;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  z-index: 2;
+  line-height: 1;
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.textTitle{
+  font-size: 20px;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.textDescription{
+  margin: 0 0 20px 0;
+}
+
+.text:after {
+  background: linear-gradient(45deg, transparent 16px, #FFBC67 0), linear-gradient(-45deg, transparent 16px, #FFBC67 0);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-size: 22px;
+  content: "";
+  display: block;
+  height: 22px;
+  left: 0;
+  bottom: -22px;
+  width: 100%;
+  position: absolute;
+}
+
+.text::before {
+  content: "";
+  background-color: #FFBC67;
+  height: 2px;
+  width: 118%;
+  position: relative;
+  display: block;
+  top: 10px;
+  left: -13.5%;
+  z-index: -1;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  
+}
+
+.link:hover{
+  color: #685C79;
+}
+
+@media screen and (max-width: 800px){
+  .list{
+    padding: 0;
+  }
+
+  .textTitle{
+    font-size: 18px;
+  }
+}

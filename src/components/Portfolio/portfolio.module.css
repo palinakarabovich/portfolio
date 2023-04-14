@@ -1,0 +1,136 @@
+.portfolio{
+  max-width: 1200px;
+  background-color: #685C79;
+  margin: 0 auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+
+.portfolio:after {
+  background: linear-gradient(-45deg, transparent 16px, #685C79 0), linear-gradient(45deg, transparent 16px, #685C79 0);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 22px;
+  content: "";
+  display: block;
+  height: 22px;
+  left:0;
+  bottom: -22px;
+  width: 100%;
+  position: absolute; 
+}
+
+.title {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 8px;
+  font-size: 30px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.list{
+  padding: 0;
+  margin: 0;
+  max-width: 700px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.node{
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  padding: 10px;
+}
+
+.node:last-child{
+  border-bottom: none;
+}
+
+.project{
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.link{
+  color: #212121;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.link:hover{
+  color: white;
+}
+
+.tags{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tag{
+  margin-right: 10px;
+  background-color: #DA727E;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: white;
+  margin: 5px;
+}
+
+.tagLink{
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #0f0f0f;
+  text-transform: uppercase;
+}
+
+.tagLink:hover{
+  color: #FFBC67;
+}
+
+.text{
+  line-height: 1;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .nodeLink{
+    text-align: center;
+  }
+
+  .tagLink{
+    margin: 0;
+    background-color: transparent;
+    color: #DA727E;
+  }
+
+  .tagLink:hover{
+    color: white;
+  }
+}
+
+
