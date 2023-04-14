@@ -5,6 +5,7 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   position: relative;
+  padding-top: 20px;
 }
 
 .portfolio:after {
@@ -53,6 +54,10 @@
 
 .node:last-child{
   border-bottom: none;
+}
+
+.node:first-child{
+  margin-top: 0;
 }
 
 .project{
@@ -115,9 +120,24 @@
   line-height: 1;
   font-size: 14px;
   margin: 15px 0;
+  text-align: justify;
+}
+
+.remark{
+  line-height: 1;
+  font-size: 14px;
+  text-align: justify;
 }
 
 @media screen and (max-width: 800px) {
+  .portfolio{
+    padding-top: 0;
+  }
+
+  .title{
+    padding-top: 20px;
+  }
+
   .nodeLink{
     text-align: center;
   }

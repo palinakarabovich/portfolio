@@ -18,6 +18,7 @@ const Portfolio = () => {
           <p className={styles.text}>
           This is a burger ordering application that allows you to build your own burgers using the presented ingredients and place order only after authorization. If you forgot your password, you can reset it with the verefication code which will be send to your email. The app also has real-time tracking of all orders that are preparing now. Your orders are saved to personal order history in your profile, where you can also change your email, name and passwords. You can place the ingredients to the burger-constructor using Drag and Drop. The app was designed partially using external ux library.
           </p>
+          <p className={styles.remark}>* You can use this data to signin, if don't want to spend time on registration. Login: cat@cat.cat. Password: cat123</p>
           <ul className={styles.tags}>
             <li className={styles.tag}>TypeScript</li>
             <li className={styles.tag}>React</li>
@@ -39,6 +40,7 @@ const Portfolio = () => {
           <p className={styles.text}>
           This app allows you to search along  a bit weird  but interested movies made by young directors. To use the server you need to be authorised. You can also save movies and remove them from your favourites later. 
           </p>
+          <p className={styles.remark}>* You can use this data to signin, if don't want to spend time on registration. Login: cat@cat.cat. Password: cat123</p>
           <ul className={styles.tags}>
             <li className={styles.tag}>JS</li>
             <li className={styles.tag}>React</li>
@@ -57,6 +59,7 @@ const Portfolio = () => {
           <p className={styles.text}>
             This app allows you to add your photos to the shared feed with other users. To add photo you have to be authorized. You can put likes on your photos and photos of others. You see the amount of likes and can dislike the photo any time. You can delete your own photos. Also you have ability to change the avatar, name and profile description.
           </p>
+          <p className={styles.remark}>* You can use this data to signin, if don't want to spend time on registration. Login: cat@cat.cat. Password: cat123</p>
           <ul className={styles.tags}>
             <li className={styles.tag}>JS</li>
             <li className={styles.tag}>React</li>

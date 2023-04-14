@@ -9,6 +9,7 @@
   box-sizing: border-box;
   flex-direction: column;
   padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .title {
@@ -110,7 +111,18 @@
   color: #685C79;
 }
 
+@media screen and (max-width: 880px){
+  .text::before{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 800px){
+
+  .education{
+    padding-top: 0;
+  }
+
   .list{
     padding: 0;
   }

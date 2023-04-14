@@ -2,7 +2,7 @@
   max-width: 1200px;
   position: relative;
   margin: 0 auto;
-  padding: 50px;
+  padding: 100px 50px 50px 50px;
   background-color: #DA727E;
   box-sizing: border-box;
   border-top-right-radius: 5px;
@@ -153,7 +153,7 @@
 @media screen and (max-width: 800px) {
 
   .promo{
-    padding: 10px;
+    padding: 100px 20px 20px 20px;
   }
 
   .container{
