@@ -10,12 +10,12 @@ const Education = () => {
             2016-2020
           </p>
           <div className={styles.text}>
-            <h3 className={styles.textTitle}>Graduated as a Software Development with a knowledge of Digital Marketing from the Belarusian State University of Informatics and Radioelectronics</h3>
+          <h3 className={styles.textTitle}>Graduated as a Software Development with a knowledge of Digital Marketing from the Belarusian State University of Informatics and Radioelectronics</h3>
             <p className={styles.textDescription}>This program combined both marketing and development, giving me a broad range of knowledge and skills in both areas.
               During the marketing component of the program, I had the opportunity to create marketing strategies for different brands and markets, develop websites using Tilda and Wordpress, and learn how to analyze audiences and deliver products that meet their needs.
               As a software engineer, I gained an understanding of object-oriented programming using Java and was also familiar with low-level programming languages such as C and C++.
-              In my final year of study, we focused on HTML, CSS, and JavaScript. This experience made my career change from marketing specialist to frontend developer easier.
-              Overall, my education has provided me with all-purpose skills that I can use during work process.
+              In my final year of study, we focused on HTML, CSS, and JavaScript.
+              
             </p>
           </div>
         </li>

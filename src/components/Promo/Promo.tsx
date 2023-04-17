@@ -13,12 +13,10 @@ const Promo = () => {
           </p>
           <div className={styles.text}>
             <p className={styles.mainText}>
-              <span className={styles.span}>I have a 1+ year non-commercial expirience building web-applications</span> and I’m constantly open to learning new Frontend technologies.  I have a big desire and motivation to improve my skills as a developer and will be happy to become part of your team as an intern or junior specialist.
-              With my background as a digital marketing specialist, I understand how websites should work to deliver a positive experience for users and business owners.
-              Also I have a 3+ years experience working as a freelancer, where I have learned the importance of clear communication and effective time management to make the working process smooth.
+              <span className={styles.span}>I have a 1+ year non-commercial expirience building web-applications</span> and I am eager to learn new Frontend technologies and improve my skills as a developer. With my background in digital marketing as a freelancer, I value clear communication and effective time management for a smooth working process. I would be thrilled to join your team as an intern or junior specialist.
             </p>
             <p className={styles.locationText}>
-              <span className={styles.span}> I have been living in the Netherlands for 3 years</span> with my husband, who provides me with all the visa support I need, so I don’t have any restrictions on working here and I am open to any opportunities and challenges.
+              <span className={styles.span}> Location:</span> Rotterdam, the Netherlands
             </p>
             <a className={styles.cv} href='#' target={'_blank'}>my CV</a>
           </div>

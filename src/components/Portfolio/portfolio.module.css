@@ -1,89 +1,73 @@
-.portfolio{
-  max-width: 1200px;
-  background-color: #685C79;
+.portfolio {
+  max-width: 100%;
+  background-color: var(--main-color);
   margin: 0 auto;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  position: relative;
-  padding-top: 20px;
-}
-
-.portfolio:after {
-  background: linear-gradient(-45deg, transparent 16px, #685C79 0), linear-gradient(45deg, transparent 16px, #685C79 0);
-  background-repeat: repeat-x;
-  background-position: left bottom;
-  background-repeat: repeat-x;
-  background-size: 22px;
-  content: "";
-  display: block;
-  height: 22px;
-  left:0;
-  bottom: -22px;
-  width: 100%;
-  position: absolute; 
+  border-radius: 5px;
+  padding: 60px 12px;
 }
 
 .title {
   margin: 0;
-  padding-top: 40px;
-  padding-bottom: 8px;
-  font-size: 30px;
-  position: relative;
+  font-size: var(--block-title-size);
   width: 100%;
   text-align: center;
   box-sizing: border-box;
   text-transform: uppercase;
   font-weight: 500;
+  margin-bottom: 30px;
+  color: #ffffff;
 }
 
-.list{
+.list {
   padding: 0;
   margin: 0;
-  max-width: 700px;
+  max-width: 80%;
   list-style: none;
   margin: 0 auto;
 }
 
-.node{
+.node {
   box-sizing: border-box;
-  border-bottom: 1px solid white;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+  padding: 30px 0;
 }
 
-.node:last-child{
+.node:last-child {
   border-bottom: none;
 }
 
-.node:first-child{
-  margin-top: 0;
+.node:first-child {
+  padding-top: 0;
 }
 
-.project{
-  font-weight: 600;
-  font-size: 25px;
-  color: white;
+.node:last-child {
+  padding-bottom: 0;
+}
+
+.project {
+  font-weight: 700;
+  font-size: var(--text-title-size);
+  color: #ffffff;
   margin: 0;
 }
 
-.container{
+.container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.link{
-  color: #212121;
-  margin-right: 10px;
-  font-size: 13px;
+.link {
+  color: var(--text-color);
+  margin-right: 12px;
+  font-size: var(--text-small-size);
 }
 
-.link:hover{
-  color: white;
+.link:hover {
+  color: var(--border-color);
 }
 
-.tags{
+.tags {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -93,64 +77,51 @@
   padding: 0;
 }
 
-.tag{
-  margin-right: 10px;
-  background-color: #DA727E;
-  border-radius: 15px;
-  padding: 5px 10px;
-  color: white;
-  margin: 5px;
+.tag {
+  margin-right: 12x;
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 6px 12px;
+  color: var(--main-color);
+  margin: 6px;
+  font-size: var(--text-size);
+  cursor: default;
 }
 
-.tagLink{
-  margin-right: 10px;
-  background-color: white;
-  border-radius: 15px;
-  padding: 5px 10px;
+.tagLink {
+  margin-right: 12px;
+  background-color: var(--border-color);
+  border-radius: 18px;
+  padding: 6px 12px;
   text-decoration: none;
-  color: #0f0f0f;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
-.tagLink:hover{
-  color: #FFBC67;
+.tagLink:hover {
+  color: var(--hightlight-color);
 }
 
-.text{
-  line-height: 1;
-  font-size: 14px;
+.text {
+  line-height: 1.3;
+  font-size: var(--text-size);
   margin: 15px 0;
   text-align: justify;
 }
 
-.remark{
-  line-height: 1;
-  font-size: 14px;
+.remark {
+  line-height: 1.3;
+  font-size: var(--text-small-size);
   text-align: justify;
 }
 
 @media screen and (max-width: 800px) {
-  .portfolio{
-    padding-top: 0;
-  }
-
-  .title{
-    padding-top: 20px;
+  .list{
+    max-width: 90%;
   }
 
   .nodeLink{
     text-align: center;
-  }
-
-  .tagLink{
-    margin: 0;
-    background-color: transparent;
-    color: #DA727E;
-  }
-
-  .tagLink:hover{
-    color: white;
+    line-height: 2;
   }
 }
-
-

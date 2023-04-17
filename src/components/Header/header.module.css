@@ -5,11 +5,11 @@
   top: 0;
   left: 0;
   z-index: 3;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 15px;
 }
@@ -24,7 +24,7 @@
 }
 
 .node {
-  padding-left: 40px;
+  padding-left: 30px;
   text-transform: uppercase;
   box-sizing: border-box;
 }
@@ -32,14 +32,13 @@
 .link {
   color: #211B1B;
   text-decoration: none;
-  padding-bottom: 4px;
-  font-size: 15px;
+  font-size: var(--text-size);
   font-weight: 600;
-  padding: 5px 10px;
+  padding: 6px 12px;
 }
 
 .link:hover{
-  color: #DA727E;;
+  color: var(--hightlight-color);
 }
 
 .menu{
@@ -54,10 +53,10 @@
 
 .stroke{
   width: 100%;
-  height: 5px;
-  background-color: #211B1B;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  height: 6px;
+  background-color: var(--main-color);
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .layout{
@@ -66,7 +65,7 @@
   left: 0;
   width: 80%;
   height: 100vh;
-  background-color: white;
+  background-color: #ffffff;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -82,8 +81,8 @@
 
 .burgerNode{
   text-transform: uppercase;
-  margin: 20px;
-  font-size: 30px;
+  margin: 24px;
+  font-size: var(--block-title-size);
 }
 
 .closeIcon{
@@ -94,14 +93,14 @@
   margin: 0;
   position: relative;
   position: absolute;
-  top: 40px;
+  top: 30px;
   right: 30px;
   cursor: pointer;
 }
 
 .strokeCloseFirst{
-  height: 5px;
-  background-color: #211B1B;
+  height: 6px;
+  background-color: var(--text-color);
   width: 100%;
   transform: rotate(45deg);
   position: absolute;
@@ -111,8 +110,8 @@
 }
 
 .strokeCloseSecond{
-  height: 5px;
-  background-color: #211B1B;
+  height: 6px;
+  background-color: var(--text-color);
   width: 100%;
   transform: rotate(-45deg);
   position: absolute;
@@ -125,11 +124,7 @@
     width: auto;
   }
   .container{
-    padding: 10px;
-  }
-
-  .closeIcon{
-    right: 20px;
+    padding: 12px;
   }
 
   .list{
