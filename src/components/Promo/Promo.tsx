@@ -5,7 +5,9 @@ const Promo = () => {
   return (
     <section className={styles.promo} id={'about'}>
       <div className={styles.container}>
-        <img className={styles.img} src={img} alt='portrait' />
+        <div className={styles.picture}>
+          <img className={styles.img} src={img} alt='portrait' />
+        </div>
         <div className={styles.intro}>
           <h1 className={styles.title}>Hi, my name is Palina!</h1>
           <p className={styles.introductionText}>

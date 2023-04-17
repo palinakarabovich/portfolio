@@ -98,6 +98,12 @@
   font-weight: 600;
 }
 
+.picture{
+  width: 330px;
+  height: 330px;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 1000px) {
   .title{
     font-size: var(--block-title-size);
@@ -109,6 +115,11 @@
   }
 
   .img{
+    width: 270px;
+    height: 270px;
+  }
+
+  .picture{
     width: 270px;
     height: 270px;
   }
@@ -153,6 +164,11 @@
   }
 
   .img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .picture{
     width: 210px;
     height: 210px;
   }
