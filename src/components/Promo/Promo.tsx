@@ -20,7 +20,7 @@ const Promo = () => {
             <p className={styles.locationText}>
               <span className={styles.span}> Location:</span> Rotterdam, the Netherlands
             </p>
-            <a className={styles.cv} href='https://drive.google.com/file/d/13cJloaDaJCDCGh18f7wri45BzeHZHf9-/view?usp=sharing' target={'_blank'}>my CV</a>
+            <a className={styles.cv} href='https://drive.google.com/file/d/1HEAvh156Zm-AEjfkKqf7IQWRveTgFD0L/view?usp=sharing' target={'_blank'}>my CV</a>
           </div>
         </div>
       </div>
