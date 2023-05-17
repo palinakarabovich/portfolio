@@ -15,12 +15,12 @@ const Promo = () => {
           </p>
           <div className={styles.text}>
             <p className={styles.mainText}>
-              <span className={styles.span}>I have a 1+ year non-commercial expirience building web-applications</span> and I am eager to learn new Frontend technologies and improve my skills as a developer. With my background in digital marketing as a freelancer, I value clear communication and effective time management for a smooth working process. I would be thrilled to join your team as an intern or junior specialist.
+              <span className={styles.span}>I have a 1+ year non-commercial expirience building web-applications</span> and I am eager to learn new Frontend technologies and improve my skills as a developer. I would be thrilled to join your team as an intern or junior specialist.
             </p>
             <p className={styles.locationText}>
               <span className={styles.span}> Location:</span> Rotterdam, the Netherlands
             </p>
-            <a className={styles.cv} href='#' target={'_blank'}>my CV</a>
+            <a className={styles.cv} href='https://drive.google.com/file/d/13cJloaDaJCDCGh18f7wri45BzeHZHf9-/view?usp=sharing' target={'_blank'}>my CV</a>
           </div>
         </div>
       </div>
